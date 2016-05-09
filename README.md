@@ -9,8 +9,8 @@
 //yourComponentName.js
 constructor(props) {
           super(props);
-          this.props.route.title = '交流圈';
-          this.props.route.rightButton = {title: '刷新',
-                                          clicked: this._fetchData,};
+          this.props.route.title = 'Title';
+          this.props.route.rightButton = {title: 'refresh',
+                                          clicked: this._refresh(),};
       }
 ```
